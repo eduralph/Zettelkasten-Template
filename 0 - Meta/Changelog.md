@@ -15,7 +15,7 @@ Newest first.
 ## 2026-05-25
 
 - **Initialized git repository** with Obsidian-tuned `.gitignore` (excludes per-user UI state, plugin binaries, sync credentials, Claudian sessions).
-- **Added `STARTER-README.md`** as the GitHub repo landing page (project name: **Zettelkasten Template**) — folder structure, plugin requirements, "Use this template" workflow, sample-vs-personal-content guide.
+- **Added `README.md`** at vault root as the GitHub repo landing page (project name: **Zettelkasten Template**) — folder structure, plugin requirements, "Use this template" workflow, sample-vs-personal-content guide. Initially named `STARTER-README.md`; renamed so GitHub auto-renders it as the repo landing page.
 - **Added Apache 2.0 `LICENSE`** for maximum permissiveness on the public starter.
 - **Excluded `6 - Zettelkasten/About.md` from git** — personal manifesto stays local; starter users create their own.
 - **Created `0 - Meta/` folder** as the home for vault documentation and dashboards.
