@@ -1,18 +1,1 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(for d in \"1 - Rough Notes\" \"2 - Source Materials\" \"3 - Tags\" \"4 - Indexes\"; do echo \"=== $d ===\"; ls \"$d\" 2>/dev/null | head -10; done; echo \"=== Untitled files ===\"; wc -c \"Untitled.md\" \"Untitled 1.md\" 2>/dev/null)",
-      "Bash(git init *)",
-      "Bash(git check-ignore *)",
-      "Bash(pwd; ls *)",
-      "Read(//home/eduard/Notebooks/ForKids/**)",
-      "Bash(gh auth *)",
-      "Bash(git add *)",
-      "Bash(git commit -m ' *)",
-      "Bash(git config *)",
-      "Bash(gh repo *)",
-      "Bash(git mv *)",
-      "Bash(git push *)"
-    ]
-  }
-}
+{}
