@@ -1,0 +1,51 @@
+# ─────────────────────────────────────────────────────────────
+# Obsidian vault .gitignore
+# Tuned for sharing the *system* (structure, templates, config)
+# while excluding per-user state, plugin binaries, and secrets.
+# ─────────────────────────────────────────────────────────────
+
+# Per-user UI state — noisy diffs, not portable across devices
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/graph.json
+
+# Caches and recovery
+.obsidian/cache
+.obsidian/.file-recovery/
+.trash/
+
+# Plugin code (let users install fresh from Community Plugins)
+# Keep data.json (config) but exclude the bundled JS/CSS/manifests
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/manifest.json
+.obsidian/plugins/*/versions.json
+
+# Credentials / secrets
+.obsidian/plugins/obsidian-livesync/data.json
+.obsidian/plugins/*/secrets.json
+
+# Excalidraw scratch
+.obsidian/plugins/obsidian-excalidraw-plugin/scripts-store-cache.md
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Editor noise
+.vscode/
+.idea/
+
+# Claude / Claudian agent state
+# .claude/settings.json is project config (commit it).
+# Everything else is per-user state, secrets, or conversation history.
+.claude/settings.local.json
+.claudian/
+
+# Personal manifesto — kept local, not shared in the starter
+6 - Zettelkasten/About.md
