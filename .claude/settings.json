@@ -7,7 +7,12 @@
       "Bash(pwd; ls *)",
       "Read(//home/eduard/Notebooks/ForKids/**)",
       "Bash(gh auth *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)",
+      "Bash(gh repo *)",
+      "Bash(git mv *)",
+      "Bash(git push *)"
     ]
   }
 }
