@@ -49,3 +49,7 @@ Desktop.ini
 
 # Personal manifesto — kept local, not shared in the starter
 6 - Zettelkasten/About.md
+
+# Claude Code machine-local files: may hold recorded commands with secrets; never commit
+**/.claude/settings.local.json*
+CLAUDE.local.md
